@@ -1,7 +1,6 @@
 import requests
 from requests.auth import HTTPBasicAuth
 import configuration
-import pprint
 
 
 class TibBot(object):
@@ -60,9 +59,7 @@ class TibBot(object):
 
 def main():
     tb = TibBot()
-    #print(tb.clid_list())
-    #pprint.pprint(tb.clients_info())
-    #print(tb.server_admins())
-    #print(tb.move_all_players())
+
+
 if __name__ == '__main__':
     main()
